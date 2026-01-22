@@ -5,32 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gayathri I | Fullstack Developer Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     
     </head>
 <body>
-    
     <div class="overall">
         
-        <header>
-            <nav class="navbar">
-                <div class="logo">My Portfolio</div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
 
-                <input type="checkbox" id="menu-toggle">
-                <label for="menu-toggle" class="hamburger">&#9776;</label>
-
-                <ul class="nav-links">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skill">Skills</a></li>
-                    <li><a href="#project">Projects</a></li>
-                </ul>
-                <div class="contact"><a href="#contact">Contact</a></div>
-            </nav>
-        </header>
-
-        <main>
-            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+       </nav>
+    </header>
+        <main>    
             <section id="home">
                 <div class="home-info">
                     <p class="name">Gayathri I</p>
@@ -39,18 +39,22 @@
                     <div class="resume"><a href="./Resume.pdf">Download CV</a></div>
                 </div>
                 <div class="image">
-                    <img src="./profile.webp" alt="Profile Picture">
+                    <img src="./profile.jpg" alt="Profile Picture">
                 </div>
             </section>
             
             <section id="about">
-                <div class="heading">About</div>
+                <div class="heading">About Me </div>
                 <div class="contents">
                     <div class="image">
-                        <img src="./profile.webp" alt="profile">
+                        <img src="./profile.jpg" alt="profile">
                     </div>
-                    <p class="content1">I'm an enthusiastic and driven Full-Stack Developer fresher with a solid foundation in both front-end and back-end technologies. I'm passionate about building efficient, scalable, and user-friendly web applications from concept to deployment. My goal is to leverage my skills in **React** and **Node.js** to contribute to innovative projects and continuously grow my expertise in the tech landscape.</p>
-                </div>
+                    <p class="content1">I am a passionate Full Stack Developer fresher with a strong foundation in front-end and back-end web development. 
+                        I enjoy building responsive, user-friendly applications using HTML, CSS, JavaScript, and modern frameworks. As a recent Computer Science graduate,
+                         I am continuously improving my skills by working on projects and exploring new technologies. I am eager to start my professional journey, 
+                         contribute to meaningful projects, and grow as a developer in a collaborative environment.
+                    </p>
+                    </div>
             </section>
             
             <section id="skill">
@@ -66,109 +70,136 @@
             </section> 
             
             <section id="project">
-                <div class="heading">Projects</div>
-                <div class="hoverpages">
-                    
-                    <div class="hoverpage">
-                        <div class="img">
-                            <div class="pro1 front">Apple Website (UI Clone)</div>
-                            <div class="pro1 back"></div> 
-                        </div>
-                        <div class="content">
-                            <div class="proname">Project: Apple Website (UI Clone)</div>
-                            <div class="aboutpro">A modern, clean, and responsive UI inspired by Apple’s official website. Focuses on smooth animations and elegant typography.</div>
-                            <div class="link"><a href="#">View Demo</a></div>
-                        </div>
-                    </div>
-                    
-                    <div class="hoverpage">
-                        <div class="img">
-                            <div class="pro1 front">E-commerce Platform</div>
-                            <div class="pro1 back"></div>
-                        </div>
-                        <div class="content">
-                            <div class="proname">Project: E-commerce Platform</div>
-                            <div class="aboutpro">A full-stack e-commerce site with user authentication, shopping cart, and payment gateway integration using MERN stack.</div>
-                            <div class="link"><a href="#">View Demo</a></div>
-                        </div>
-                    </div>
-                    
-                    <div class="hoverpage">
-                        <div class="img">
-                            <div class="pro1 front">Task Management App</div>
-                            <div class="pro1 back"></div>
-                        </div>
-                        <div class="content">
-                            <div class="proname">Project: Task Management App</div>
-                            <div class="aboutpro">A simple, effective tool built with Python/Django, featuring CRUD operations, user login, and drag-and-drop task ordering.</div>
-                            <div class="link"><a href="#">View Demo</a></div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-            
-            <section id="education">
-                <div class="heading">Education</div>
+    <div class="hoverpages">
 
-                <div class="edu-container">
-                    <div class="edu-box">
-                        <div class="circle" style="--value:70;"></div>
+        <!-- Project1-->
+        <div class="hoverpage">
+            <div class="img" style="background-image: url('./appleindia.png');"></div>
+
+            <div class="content">
+                <h3 class="proname">E-Commerce Website</h3>
+                <p class="aboutpro">
+                    Modern online store with product filtering, cart, and payment integration.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="link">
+                    <a href="#">Github</a>
+                    <a href="#">Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="hoverpage">
+            <div class="img" style="background-image: url('./portfolio.png');"></div>
+
+            <div class="content">
+                <h3 class="proname">Portfolio Website</h3>
+                <p class="aboutpro">
+                    Personal portfolio showcasing skills, projects, and contact details.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                </div>
+
+                <div class="link">
+                    <a href="#">Github</a>
+                    <a href="#">Live Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- project3 -->
+         <div class="hoverpage">
+            <div class="img" style="background-image: url('./portfolio.png');"></div>
+
+            <div class="content">
+                <h3 class="proname">Portfolio Website</h3>
+                <p class="aboutpro">
+                    Personal portfolio showcasing skills, projects, and contact details.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="link">
+                    <a href="#">Github</a>
+                    <a href="#">Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>         
+    <section id="education">
+        <div class="heading">Education</div>
+            <div class="edu-container">
+                <div class="edu-box">
+                    <div class="circle" style="--value:70;"></div>
                         <p class="percent">70%</p>
                         <h3>10th Grade</h3>
                     </div>
-
                     <div class="edu-box">
                         <div class="circle" style="--value:85;"></div>
                         <p class="percent">85%</p>
                         <h3>12th Grade</h3>
                     </div>
-
                     <div class="edu-box">
                         <div class="circle" style="--value:83;"></div>
-                        <p class="percent">83%</p>
+                        <p class="percent">74%</p>
                         <h3>College Degree</h3>
                     </div>
                 </div>
             </section>
             
-            <section id="contact">
-                <div class="heading">Contact Me</div>
-                
-                <div class="contact-container">
-                    
-                    <form action="#" class="contact-form">
-                        <div class="input-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="input-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="input-group">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="input-group">
-                            <textarea placeholder="Your Message" required></textarea>
-                        </div>
-                        <div class="submit-btn">
-                            <button type="submit">Send Message</button>
-                        </div>
-                    </form>
+    <section id="contact">
+    <div class="heading">Get In Touch</div>
 
-                    <h3 style="text-align: center; margin-top: 40px; color: var(--secondary-color);">Connect with me instantly</h3>
-                    
-                    <div class="social-links">
-                        <div class="icon-box"><a href="YOUR_LINKEDIN_URL"><img src="./linkdin.png" alt="LinkedIn"></a></div>
-                        <div class="icon-box"><a href="mailto:YOUR_EMAIL_ADDRESS"><img src="./gmail.png" alt="Gmail"></a></div>
-                        <div class="icon-box"><a href="YOUR_INSTAGRAM_URL"><img src="./instagram.png" alt="Instagram"></a></div>
-                        <div class="icon-box"><a href="YOUR_FACEBOOK_URL"><img src="./facebook.png" alt="Facebook"></a></div>
-                        <div class="icon-box"><a href="YOUR_TWITTER_URL"><img src="./twitter.png" alt="Twitter"></a></div>
-                        <div class="icon-box"><a href="YOUR_GITHUB_URL"><img src="./github.png" alt="GitHub"></a></div>
-                    </div>
-                </div>
-            </section>
-            
-        </main>
+    <div class="contact-container">
+
+        <!-- LEFT INFO -->
+        <div class="contact-info">
+            <h2>Let’s collaborate!</h2>
+            <p>I am currently looking for entry-level opportunities in Full Stack Development and would love to connect.</p>
+            <ul>
+                <li><i class="fa-regular fa-envelope" style="color: #f5f7f9;"></i>   gayathri150404@gmail.com</li>
+                <li><i class="fa-solid fa-phone" style="color: #f1f2f4;"></i> +91 95664 41769</li>
+                <li><i class="fa-solid fa-map-pin" style="color: #ededee;"></i> Tamil Nadu, India</li>
+            </ul>
+
+            <div class="social-links">
+                <div class="icon-box"><a href="https://www.linkedin.com/in/gayathriiyappan013/"><img src="./linkdin.png"></a></div>
+                <div class="icon-box"><a href="gayathri150404@gmail.com"><img src="./gmail.png"></a></div>
+                <div class="icon-box"><a href="https://www.instagram.com/gayu___drl/"><img src="./instagram.png"></a></div>
+                <div class="icon-box"><a href="https://github.com/Gayu-2696"><img src="./github.png"></a></div>
+            </div>
+        </div>
+
+        <!--cotact form-->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
     </div>
+</section>            
+    </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
