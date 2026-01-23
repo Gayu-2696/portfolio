@@ -159,7 +159,7 @@ main{
     color: var(--text-color);
 }
 section {
-    padding: 80px 5%;
+    padding: 50px 5%;
     width: 100%;
     min-height: 80vh;
 }
@@ -241,8 +241,8 @@ section {
     box-shadow: 0 4px 20px rgba(0, 234, 255, 0.6);
 }
 .image img{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid var(--primary-color);
@@ -402,8 +402,8 @@ section {
     font-size: 0.8rem;
     border-radius: 20px;
     background: rgba(61, 160, 199, 0.2);
-    color: #0c6994;
-    border: 1px solid rgba(30, 185, 233, 0.4);
+    color: #7bd0f7;
+    border: 1px solid rgba(80, 199, 235, 0.4);
 }
 
 /* buttons */
